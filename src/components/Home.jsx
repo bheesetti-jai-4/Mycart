@@ -22,7 +22,7 @@
 // export default Home;
 
 import { useNavigate } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap
+// import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap
 
 function Home() {
   const navigate = useNavigate();

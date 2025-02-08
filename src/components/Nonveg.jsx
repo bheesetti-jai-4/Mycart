@@ -26,7 +26,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "../Store/store";
 // import "bootstrap/dist/css/bootstrap.min.css";
-import "./All_CssFiles/AllItemsUsingSame.css";  // import separate CSS file
+// import "./All_CssFiles/AllItemsUsingSame.css";  // import separate CSS file
 
 export const Nonveg = () => {
    const nonvegitems = useSelector((data) => data.products.nonveg);

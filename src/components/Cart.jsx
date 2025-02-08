@@ -195,7 +195,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { addPurcheDetails, clearcart, decrement, increment, remove } from "../Store/store";
 import { useState } from "react";
-import "./All_CssFiles/Cart.css"; // Import separate CSS file
+// import "./All_CssFiles/Cart.css"; // Import separate CSS file
 
 function Cart() {
     const cartobject = useSelector((state) => state.cart);
