@@ -1,0 +1,26 @@
+
+.order-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+}
+
+.order-title {
+    text-align: center;
+    color: #007bff;
+    /* margin-top: 20px; */
+}
+
+.order-list {
+    list-style-type: none;
+    padding: 0;
+    /* margin-top: 20px; */
+}
+
+.order-list li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}

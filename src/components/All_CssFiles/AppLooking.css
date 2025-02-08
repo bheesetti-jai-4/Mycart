@@ -1,0 +1,32 @@
+/* @import '~bootstrap/dist/css/bootstrap.min.css'; Import Bootstrap */
+
+/* Custom Styling */
+nav {
+    background-color: #007bff; 
+    padding: 10px;
+}
+
+.myfile {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.myfile:hover {
+    color: rgb(3, 250, 3);
+}
+
+button.myfile {
+    background-color: red;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button.myfile:hover {
+    background-color: darkred;
+}

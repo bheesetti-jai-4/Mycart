@@ -1,0 +1,37 @@
+/* Center all items in the body */
+body {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  min-height: 100vh; /* Ensure the body takes full viewport height */
+  margin: 0; /* Remove default margins */
+  background-color: #f0f4f8; /* Soft background color for aesthetics */
+  font-family: Arial, sans-serif; /* Clean font */
+}
+
+/* Styled container */
+.container {
+  text-align: center; /* Center text inside the container */
+  padding: 2rem; /* Add spacing inside the box */
+  border: 2px solid #4a90e2; /* Border with a nice blue color */
+  border-radius: 12px; /* Rounded corners */
+  background-color: #ffffff; /* White background for contrast */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 150rem; /* Limit box width */
+  width: 90%; /* Responsive width */
+  background-color: beige;
+}
+
+/* Style for text inside the box */
+h1 {
+  margin-bottom: 1rem; /* Add space below heading */
+  color: #333; /* Dark gray text color */
+}
+
+p {
+  color: #555; /* Softer gray for paragraph text */
+  font-size: 1rem; /* Make the text easy to read */
+}
+button{
+  margin: 10px;
+}

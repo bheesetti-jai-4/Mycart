@@ -1,0 +1,114 @@
+/* @import '~bootstrap/dist/css/bootstrap.min.css';  Import Bootstrap */
+
+/* Container for the cart */
+.cart-container {
+    padding: 20px;
+}
+
+.heading{
+    text-align: center;
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin:10px 0 10px 30px ;
+}
+
+/* Cart heading */
+.cart-heading {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Cart list */
+.cart-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+}
+
+/* Buttons */
+.cart-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-button:hover {
+    background-color: #0056b3;
+}
+
+/* Discount section */
+.discount-section {
+    background-color: #e9f5e9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.discount-text {
+    font-weight: bold;
+    color: #28a745;
+}
+
+/* Coupon section */
+.coupon-section {
+    margin-top: 15px;
+}
+
+.coupon-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.coupon-button {
+    background-color: #ff9800;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.coupon-button:hover {
+    background-color: #e68900;
+}
+
+/* Final Price */
+.final-price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Purchase Button */
+.purchase-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.purchase-button:hover {
+    background-color: #218838;
+}
