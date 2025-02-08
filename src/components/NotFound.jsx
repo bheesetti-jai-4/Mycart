@@ -60,7 +60,7 @@ function NotFound() {
       </p>
       <img
         src="/notfound/404.jpeg"
-        alt="not found"
+        alt="404"
         className="img-fluid"
         style={{ maxWidth: "500px" }}
       />
